@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0px;
+            padding: 6px;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        header p.lead {
+            font-size: 1.5rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        
+        header p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        h2 {
+            margin-bottom: 1.5rem;
+            font-weight:900;
+            text-decoration: underline;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #skills .row > div {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .bg-light {
+            background-color: #f8f9fa !important;
+        }
+
+        .btn-primary {
+            background-color: #28a745;
+            border-color: #28a745;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .btn-primary:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+        .education-entry, .experience-entry, .project-entry {
+            margin-bottom: 1.5rem;
+        }
+
+        .education-entry h4, .experience-entry h4, .project-entry h4 {
+            font-weight: bold;
+        }
+
+        .timeline {
+            font-style: italic;
+        }
+        #myform{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class=" text-white text-center py-5">
+        <h1>MUHAMMAD MUJAHID TUFAIL</h1>
+        <p class="lead" >Game Developer</p>
+        <p>Creating My Own World</p>
+    </header>
+
+   <!-- Education Section -->
+<section id="education" class="py-5">
+    <div class="container">
+        <h2 style="font-weight: bold; text-align: center;">EDUCATION</h2>
+        <ul>
+            <li class="education-entry">
+                <h4 style="font-weight: bold;">University of Management and Technology, Lahore</h4>
+                <ul>
+                    <li>Bachelors of Science in Computer Science (BSCS) - CGPA: 3.50</li>
+                    <li class="timeline">Nov 2021 - Present</li>
+                </ul>
+            </li>
+            <li class="education-entry">
+                <h4 style="font-weight: bold;">Punjab Group of Colleges, Sheikhupura</h4>
+                <ul>
+                    <li>FSC. Pre Medical - Grade: A</li>
+                    <li class="timeline">2019 - 2021</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+
+ <!-- Skills Section -->
+<section id="skills" class="bg-light py-5">
+    <div class="container">
+        <h2 style="font-weight: bold; text-align: center;">SKILLS</h2>
+
+        <ul>
+            <li>
+                <h4 style="font-weight: bold;">Programming Languages</h4>
+                <ul>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>Python</li>
+                    <li>Shell Script</li>
+                </ul>
+            </li>
+
+            <li>
+                <h4 style="font-weight: bold;">Development</h4>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Unity 2D/3D Game Development</li>
+                    <li>Flutter Mobile Application Development</li>
+                    <li>Frontend Web Development</li>
+                </ul>
+            </li>
+
+            <li>
+                <h4 style="font-weight: bold;">Database</h4>
+                <ul>
+                    <li>Database Management Systems Using MySQL</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center" style="font-weight: bold;">EXPERIENCE</h2>
+            <ul>
+                <li class="experience-entry">
+                    <h4 style="font-weight: bold;">3D Modelling – Blendr</h4>
+                    <ul>
+                        <li>Digital Flares, 2021</li>
+                    </ul>
+                </li>
+                <li class="experience-entry">
+                    <h4 style="font-weight: bold;">Basics of Freelancing</h4>
+                    <ul>
+                        <li>Digital Flares, 2021</li>
+                    </ul>
+                </li>
+                <li class="experience-entry">
+                    <h4 style="font-weight: bold;">Pakistan Citizen Alliance</h4>
+                    <ul>
+                        <li>Volunteered with Pakistan Citizen Alliance Organization, contributing to their community development programs and receiving a Certificate of Appreciation for my dedicated efforts. Demonstrated commitment to social responsibility and leadership skills, while making a positive impact in the community.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- Complete Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center" style="font-weight: bold;">COMPLETED PROJECTS</h2>
+            <ul>
+                <li class="project-entry">
+                    <h4>Hospital Management System</h4>
+                    <ul>
+                        <li>Developed using C++</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>Symposium Café</h4>
+                    <ul>
+                        <li>Developed using C++</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>Attendance Tracking Mechanism</h4>
+                    <ul>
+                        <li>Developed using MySQL, C++ for connectivity</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>The Blue Dragon</h4>
+                    <ul>
+                        <li>2D game developed using Unity</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>Dino Sprint</h4>
+                    <ul>
+                        <li>2D game developed using Unity</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>Student Quiz</h4>
+                    <ul>
+                        <li>Developed using Flutter</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>BMI Calculator</h4>
+                    <ul>
+                        <li>Developed using Flutter</li>
+                    </ul>
+                </li>
+                <li class="project-entry">
+                    <h4>Student Quiz (MCQS Based)</h4>
+                    <ul>
+                        <li>Developed using Shell script</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center" style="font-weight: bold;">CONTACT ME</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name" id="myform">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="myform">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" id="myform">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
